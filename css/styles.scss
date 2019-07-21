@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+
+$red-color: #ee2c2c;
+$yellow-color: rgb(224, 178, 116);
+$blue-color: #0000cd;
+$brown: rgba(49, 34, 39,0.9);
+$font: 'Pacifico', sans-serif;
+$font2:'Squada One', sans-serif;
+
+
+body{
+  background-image:url(../images/door-envelopes-mail-1877539.jpg);
+  background-repeat: no-repeat;
+  background-position: initial; 
+  background-size:cover;
+
+  h1{
+  //-webkit-text-stroke: 1px rgb(124, 41, 3);
+  font-size: 3em;
+  background-color:rgba($color: #0aafbbd2, $alpha: 1);
+  padding: 5px;
+  //letter-spacing: 1px; 
+  color:#0c0900;
+  position: fixed;
+  font-family: $font2;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+ transform: translate(-50%, -50%);
+  
+  }
+  
+
+  .niceBorders{
+    color: $yellow-color;
+    font-family: $font;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+
+  ul {
+    display: flex;
+    font-family: 'Pacifico', sans-serif;
+    list-style-type:none;
+    font-size:x-large;
+    color:$yellow-color;
+    justify-content:center;
+    -webkit-text-stroke: 1px black;
+    
+       li{
+        
+        margin-right:0;
+        background: $brown;
+        
+         
+      }
+
+  }
+  img{
+    width: 300px;
+    margin-top:2em;
+    
+  }
+  #container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+  .space{
+    padding:0.25em;
+  } 
+  p.niceBorders1{
+    font-family: 'Pacifico', sans-serif;
+    list-style-type:none;
+    font-size:1em;
+    color:$yellow-color;
+    -webkit-text-stroke: 1px black;
+    letter-spacing: 4px;
+    text-align: center;
+    
+    
+  }
+  
+}
+footer{
+font-size: 0.5em;
+font-style: italic;
+font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+bottom:3px;
+text-align: center;
+visibility: hidden;
+margin-top: 10em;
+//background: $brown;
+padding:0;
+color: white; 
+
+}
+@media only screen and (max-width:374px){
+  body{
+    background-color:$blue-color;
+    background-size: 2200px;
+    background-position:center;
+    background-attachment: fixed;
+    flex-direction: column;
+    
+
+  }
+
+
+}
+@media only screen and (max-width:375px){
+  body{
+    background-color:$blue-color;
+    background-size: 2200px;
+    background-position:center;
+    background-attachment: fixed;
+    flex-direction: column;
+
+  }
+}
+
+@media only screen and (max-width: 769px)
+{
+  body{
+    background-color:$blue-color;
+    background-size: 3000px;
+    background-position:center;
+    background-attachment: fixed;
+    
+  }
+}
+@media only screen and (max-width: 1160px){
+  body{
+    background-color:$blue-color;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    
+  }
+}
+/*
+@media only screen and (max-width: 991px)
+{
+  body{
+    background-color:$blue-color;
+    background-size: 2400px;
+    background-position-y: bottom 10em;
+    background-position-x: left 20em;
+    
+  }
+}
+
+*/
+
